@@ -1,0 +1,181 @@
+{
+  "extraction": {
+    "document_type": "triage_note",
+    "patient": {
+      "name": {
+        "value": "T. Bergstrom (Theo)",
+        "confidence": "high",
+        "source_quote": "Pt: T. Bergstrom (Theo)"
+      },
+      "age": {
+        "value": "74",
+        "confidence": "high",
+        "source_quote": "74 yrs."
+      },
+      "sex": {
+        "value": "M",
+        "confidence": "high",
+        "source_quote": "M"
+      },
+      "mrn": {
+        "value": "NG 88213-4",
+        "confidence": "high",
+        "source_quote": "Hosp no. NG 88213-4"
+      }
+    },
+    "encounter_date": {
+      "value": "22-Jan-2026",
+      "confidence": "high",
+      "source_quote": "22-Jan-2026"
+    },
+    "chief_complaint": {
+      "value": "Not himself since yesterday afternoon, difficult to rouse, slurred speech, confused",
+      "confidence": "high",
+      "source_quote": "\"Not himself since yesterday afternoon.\" Son reports reduced oral intake for\n~2 days, then found father slumped in chair this evening, difficult to rouse,\nspeech slurred and confused."
+    },
+    "diagnoses": [
+      {
+        "description": "urosepsis",
+        "status": "suspected",
+        "confidence": "high",
+        "source_quote": "Query urosepsis."
+      }
+    ],
+    "medications": [
+      {
+        "name": "Apixaban",
+        "dose": "5 mg",
+        "frequency": "BD",
+        "route": "not documented",
+        "indication": "not documented",
+        "confidence": "high",
+        "source_quote": "Apixaban       5 mg    BD"
+      },
+      {
+        "name": "Bisoprolol",
+        "dose": "2.5 mg",
+        "frequency": "OD",
+        "route": "not documented",
+        "indication": "not documented",
+        "confidence": "high",
+        "source_quote": "Bisoprolol     2.5 mg  OD"
+      },
+      {
+        "name": "Furosemide",
+        "dose": "40 mg",
+        "frequency": "OD",
+        "route": "not documented",
+        "indication": "not documented",
+        "confidence": "high",
+        "source_quote": "Furosemide     40 mg   OD"
+      },
+      {
+        "name": "Tamsulosin",
+        "dose": "400 mcg",
+        "frequency": "OD",
+        "route": "not documented",
+        "indication": "not documented",
+        "confidence": "high",
+        "source_quote": "Tamsulosin     400 mcg OD"
+      }
+    ],
+    "allergies": [
+      "not documented"
+    ],
+    "vitals": {
+      "temperature_c": "38.9",
+      "heart_rate_bpm": "124",
+      "respiratory_rate": "28",
+      "systolic_bp": "88",
+      "diastolic_bp": "52",
+      "spo2_percent": "90",
+      "on_supplemental_oxygen": "yes",
+      "consciousness": "voice",
+      "source_quote": "Temp        38.9 C (tympanic)\n    HR          124\n    RR          28\n    BP          88/52\n    SpO2        90% on 6 L/min via face mask\n    AVPU        V -- responds to voice only"
+    },
+    "labs": [
+      {
+        "name": "Lactate",
+        "value": "4.8",
+        "unit": "mmol/L",
+        "reference_range": "0.5-2.2",
+        "flag": "critical",
+        "confidence": "high",
+        "source_quote": "Lactate       4.8  mmol/L   (0.5-2.2)   *** CRITICAL ***"
+      },
+      {
+        "name": "Creatinine",
+        "value": "218",
+        "unit": "umol/L",
+        "reference_range": "60-110",
+        "flag": "high",
+        "confidence": "high",
+        "source_quote": "Creatinine    218  umol/L   (60-110)    High"
+      },
+      {
+        "name": "Urea",
+        "value": "19.4",
+        "unit": "mmol/L",
+        "reference_range": "2.5-7.8",
+        "flag": "high",
+        "confidence": "high",
+        "source_quote": "Urea          19.4 mmol/L   (2.5-7.8)   High"
+      },
+      {
+        "name": "CRP",
+        "value": "187",
+        "unit": "mg/L",
+        "reference_range": "<5",
+        "flag": "high",
+        "confidence": "high",
+        "source_quote": "CRP           187  mg/L     (<5)        High"
+      },
+      {
+        "name": "WBC",
+        "value": "17.2",
+        "unit": "x10^9/L",
+        "reference_range": "4.0-11.0",
+        "flag": "high",
+        "confidence": "high",
+        "source_quote": "WBC           17.2 x10^9/L  (4.0-11.0)  High"
+      },
+      {
+        "name": "Hb",
+        "value": "10.8",
+        "unit": "g/dL",
+        "reference_range": "13.0-17.0",
+        "flag": "low",
+        "confidence": "high",
+        "source_quote": "Hb            10.8 g/dL     (13.0-17.0) Low"
+      }
+    ],
+    "summary": "Mr. Bergstrom is a 74-year-old male with a history of CKD stage 3b and atrial fibrillation who presented with altered mental status, confusion, and reduced oral intake. Clinical signs are consistent with severe sepsis, including hypotension (88/52 mmHg), tachycardia (124 bpm), fever (38.9\u00b0C), elevated lactate (4.8 mmol/L), and anuria/oliguria. The Sepsis Six protocol has been initiated, and the patient is awaiting medical review and urgent CT imaging.",
+    "clinical_reasoning": "The patient exhibits classic signs of septic shock, including hypotension, tachycardia, tachypnea, and hyperlactatemia. His renal status is significantly impaired (elevated creatinine and urea) with oliguria, likely exacerbated by severe infection and poor perfusion. The low Hb, combined with anticoagulation (Apixaban), warrants consideration for potential source of occult blood loss, though urosepsis is the primary clinical suspicion given his history.",
+    "recommended_next_steps": [
+      "Perform immediate medical review.",
+      "Monitor urine output closely (catheter in situ).",
+      "Obtain emergent CT abdomen as requested.",
+      "Verify medication history and allergy status with patient or alternative source.",
+      "Monitor response to initial fluid resuscitation and reassess lactate."
+    ],
+    "missing_critical_info": [
+      "Confirmed allergy history",
+      "Countersignature by medical staff",
+      "Formal pharmacy medication verification"
+    ]
+  },
+  "triage": {
+    "risk_level": "HIGH",
+    "news2_total": 17,
+    "response": "Emergency assessment by a critical care team. Continuous monitoring.",
+    "critical_flags": [
+      "Critical lab: Lactate 4.8 mmol/L",
+      "Marked tachypnoea: Respiratory rate 28/min",
+      "Significant hypoxaemia: SpO2 90%",
+      "Hypotension: Systolic BP 88 mmHg",
+      "New confusion or reduced GCS: Consciousness voice",
+      "No allergy history documented."
+    ],
+    "unscored_parameters": []
+  }
+}

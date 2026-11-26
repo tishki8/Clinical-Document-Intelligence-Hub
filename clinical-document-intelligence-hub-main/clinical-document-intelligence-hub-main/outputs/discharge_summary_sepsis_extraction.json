@@ -1,0 +1,179 @@
+{
+  "extraction": {
+    "document_type": "discharge_summary",
+    "patient": {
+      "name": {
+        "value": "Marion Elsworth Okafor",
+        "confidence": "high",
+        "source_quote": "Patient:  Marion Elsworth Okafor"
+      },
+      "age": {
+        "value": "68",
+        "confidence": "high",
+        "source_quote": "DOB:      14 Mar 1958 (Age 68)"
+      },
+      "sex": {
+        "value": "F",
+        "confidence": "high",
+        "source_quote": "Sex:      F"
+      },
+      "mrn": {
+        "value": "RB-4471902",
+        "confidence": "high",
+        "source_quote": "MRN:      RB-4471902"
+      }
+    },
+    "encounter_date": {
+      "value": "03/11/2026 - 09/11/2026",
+      "confidence": "high",
+      "source_quote": "Admitted: 03/11/2026      Discharged: 09/11/2026"
+    },
+    "chief_complaint": {
+      "value": "productive cough, rigors, increasing breathlessness, and new confusion",
+      "confidence": "high",
+      "source_quote": "three days of productive cough, rigors and increasing breathlessness. Family reported she had become \"vague and muddled\" on the morning of admission"
+    },
+    "diagnoses": [
+      {
+        "description": "Community-acquired pneumonia, right lower lobe",
+        "status": "active",
+        "confidence": "high",
+        "source_quote": "Community-acquired pneumonia, right lower lobe -- resolving"
+      },
+      {
+        "description": "Sepsis secondary to pneumonia",
+        "status": "resolved",
+        "confidence": "high",
+        "source_quote": "Sepsis secondary to (1) -- resolved"
+      },
+      {
+        "description": "Type 2 diabetes mellitus",
+        "status": "active",
+        "confidence": "high",
+        "source_quote": "Type 2 diabetes mellitus -- ongoing, stable"
+      },
+      {
+        "description": "Hypertension",
+        "status": "active",
+        "confidence": "high",
+        "source_quote": "Hypertension -- ongoing, stable"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Amoxicillin-clavulanate",
+        "dose": "875/125 mg",
+        "frequency": "BD",
+        "route": "PO",
+        "indication": "pneumonia completion",
+        "confidence": "high",
+        "source_quote": "Amoxicillin-clavulanate 875/125 mg  PO  BD   -- complete 2 further days"
+      },
+      {
+        "name": "Metformin",
+        "dose": "1000 mg",
+        "frequency": "BD",
+        "route": "PO",
+        "indication": "T2DM",
+        "confidence": "high",
+        "source_quote": "Metformin              1000 mg      PO  BD   -- ongoing, for T2DM"
+      },
+      {
+        "name": "Ramipril",
+        "dose": "5 mg",
+        "frequency": "OD",
+        "route": "PO",
+        "indication": "hypertension",
+        "confidence": "high",
+        "source_quote": "Ramipril               5 mg         PO  OD   -- ongoing, for hypertension"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "20 mg",
+        "frequency": "nocte",
+        "route": "PO",
+        "indication": "ongoing",
+        "confidence": "high",
+        "source_quote": "Atorvastatin           20 mg        PO  nocte -- ongoing"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash in childhood)"
+    ],
+    "vitals": {
+      "temperature_c": "37.4",
+      "heart_rate_bpm": "88",
+      "respiratory_rate": "18",
+      "systolic_bp": "118",
+      "diastolic_bp": "74",
+      "spo2_percent": "96",
+      "on_supplemental_oxygen": "no",
+      "consciousness": "alert",
+      "source_quote": "Temp 37.4 C   HR 88   RR 18   BP 118/74   SpO2 96% on room air\nPatient alert and oriented x3."
+    },
+    "labs": [
+      {
+        "name": "WBC",
+        "value": "9.8",
+        "unit": "x10^9/L",
+        "reference_range": "4.0-11.0",
+        "flag": "normal",
+        "confidence": "high",
+        "source_quote": "WBC            9.8   x10^9/L   (4.0-11.0)     Normal"
+      },
+      {
+        "name": "CRP",
+        "value": "41",
+        "unit": "mg/L",
+        "reference_range": "<5",
+        "flag": "high",
+        "confidence": "high",
+        "source_quote": "CRP            41    mg/L      (<5)           High"
+      },
+      {
+        "name": "Creatinine",
+        "value": "94",
+        "unit": "umol/L",
+        "reference_range": "45-90",
+        "flag": "high",
+        "confidence": "high",
+        "source_quote": "Creatinine     94    umol/L    (45-90)        High"
+      },
+      {
+        "name": "Haemoglobin",
+        "value": "11.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-15.5",
+        "flag": "low",
+        "confidence": "high",
+        "source_quote": "Haemoglobin    11.9  g/dL      (12.0-15.5)    Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "7.8",
+        "unit": "%",
+        "reference_range": "<7.0",
+        "flag": "high",
+        "confidence": "high",
+        "source_quote": "HbA1c          7.8   %         (<7.0)         High"
+      }
+    ],
+    "summary": "This 68-year-old female was admitted with Streptococcus pneumoniae pneumonia and associated sepsis, manifesting with confusion and respiratory distress. She was treated with IV antibiotics and supportive care, showing significant clinical and laboratory improvement. She is now hemodynamically stable, off oxygen, and clinically alert. She has been transitioned to oral antibiotics to complete her course and is discharged home with follow-up for renal function, inflammatory markers, and diabetes management.",
+    "clinical_reasoning": "The patient shows objective improvement in vital signs and resolution of confusion. The WBC has normalized, and the CRP is trending down significantly from its admission peak. Concerns remain for mild residual renal impairment (Creatinine 94) and suboptimal glycemic control (HbA1c 7.8%). The patient tolerated penicillins during this admission despite a history of a childhood rash, suggesting the allergy may be non-IgE mediated or outgrown.",
+    "recommended_next_steps": [
+      "Complete remaining 2 days of Amoxicillin-clavulanate.",
+      "GP review within 7 days for repeat CRP and renal function assessment.",
+      "Schedule diabetes nurse review for glycemic optimization (HbA1c 7.8%).",
+      "Refer to allergy clinic for formal evaluation of penicillin allergy.",
+      "Repeat chest radiograph in 6 weeks to confirm radiological resolution."
+    ],
+    "missing_critical_info": []
+  },
+  "triage": {
+    "risk_level": "ROUTINE",
+    "news2_total": 0,
+    "response": "Routine monitoring per ward policy.",
+    "critical_flags": [],
+    "unscored_parameters": []
+  }
+}

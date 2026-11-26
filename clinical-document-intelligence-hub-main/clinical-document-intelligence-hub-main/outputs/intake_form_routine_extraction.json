@@ -1,0 +1,114 @@
+{
+  "extraction": {
+    "document_type": "intake_form",
+    "patient": {
+      "name": {
+        "value": "Amara J. Villanueva",
+        "confidence": "high",
+        "source_quote": "Amara J. Villanueva"
+      },
+      "age": {
+        "value": "34",
+        "confidence": "high",
+        "source_quote": "Age .... 34"
+      },
+      "sex": {
+        "value": "Female",
+        "confidence": "high",
+        "source_quote": "Sex .................. Female"
+      },
+      "mrn": {
+        "value": "WF-2026-00817",
+        "confidence": "high",
+        "source_quote": "Patient ID ........... WF-2026-00817"
+      }
+    },
+    "encounter_date": {
+      "value": "05/02/2026",
+      "confidence": "high",
+      "source_quote": "05/02/2026"
+    },
+    "chief_complaint": {
+      "value": "Recurring headaches, 2-3 per week for about four months. Usually behind my right eye. Sometimes I feel sick with them.",
+      "confidence": "high",
+      "source_quote": "Recurring headaches, 2-3 per week for about four months. Usually behind my right eye. Sometimes I feel sick with them."
+    },
+    "diagnoses": [
+      {
+        "description": "Migraine",
+        "status": "active",
+        "confidence": "high",
+        "source_quote": "Migraine (diagnosed age 19, \"went away for years\")"
+      },
+      {
+        "description": "Anxiety",
+        "status": "active",
+        "confidence": "high",
+        "source_quote": "Anxiety -- managed without medication"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Ibuprofen",
+        "dose": "400 mg",
+        "frequency": "as needed for headache, roughly 3x/week",
+        "route": "not documented",
+        "indication": "headache",
+        "confidence": "high",
+        "source_quote": "Ibuprofen 400 mg -- as needed for headache, roughly 3x/week"
+      },
+      {
+        "name": "Combined oral contraceptive",
+        "dose": "not documented",
+        "frequency": "daily",
+        "route": "not documented",
+        "indication": "not documented",
+        "confidence": "medium",
+        "source_quote": "Combined oral contraceptive (patient unsure of brand name -- \"the pink packet\") -- daily"
+      },
+      {
+        "name": "Vitamin D",
+        "dose": "1000 IU",
+        "frequency": "daily",
+        "route": "not documented",
+        "indication": "not documented",
+        "confidence": "high",
+        "source_quote": "Vitamin D 1000 IU -- daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)"
+    ],
+    "vitals": {
+      "temperature_c": "36.9",
+      "heart_rate_bpm": "72",
+      "respiratory_rate": "16",
+      "systolic_bp": "122",
+      "diastolic_bp": "78",
+      "spo2_percent": "99",
+      "on_supplemental_oxygen": "no",
+      "consciousness": "alert",
+      "source_quote": "Temperature ......... 98.4 F\n  Blood pressure ...... 122/78\n  Pulse ............... 72\n  Respirations ........ 16\n  O2 saturation ....... 99% (room air)\n  Patient alert and oriented."
+    },
+    "labs": [],
+    "summary": "Amara J. Villanueva, a 34-year-old female, presents for evaluation of recurrent headaches occurring 2-3 times per week over the past four months. The headaches are localized behind the right eye and associated with nausea. The patient has a history of migraine and reports current use of daily oral contraceptives, Vitamin D, and as-needed Ibuprofen. Vital signs are within normal limits.",
+    "clinical_reasoning": "The patient's clinical presentation of unilateral headache associated with nausea is consistent with her known history of migraine. Reassurance is provided by the absence of red flags (no vision loss, no sudden onset, no fever or nuchal rigidity). However, the patient notes that headaches occasionally occur upon waking, which warrants clinician investigation during the physical exam to rule out secondary causes. The documentation indicates that the form has not yet been reviewed or signed by a clinician.",
+    "recommended_next_steps": [
+      "Clinician review and signature of the intake form.",
+      "Physical exam focusing on neurological assessment to evaluate headache etiology.",
+      "Discuss migraine management strategies and potential triggers (e.g., sleep hygiene, screen time)."
+    ],
+    "missing_critical_info": [
+      "Clinician signature/verification of the intake form.",
+      "Verification of specific oral contraceptive brand.",
+      "Neurological physical examination results."
+    ]
+  },
+  "triage": {
+    "risk_level": "ROUTINE",
+    "news2_total": 0,
+    "response": "Routine monitoring per ward policy.",
+    "critical_flags": [],
+    "unscored_parameters": []
+  }
+}
